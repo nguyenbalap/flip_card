@@ -1,85 +1,321 @@
 [
     {
         "id": 0,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/97869952",
         "flipped": false,
         "disable": false
     },
     {
         "id": 1,
-        "front": "front_card.jpg",
-        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/953.jpg",
         "flipped": false,
         "disable": false
     },
     {
         "id": 2,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/82435101",
         "flipped": false,
         "disable": false
     },
     {
         "id": 3,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/48624167",
         "flipped": false,
         "disable": false
     },
     {
         "id": 4,
-        "front": "front_card.jpg",
-        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/64.jpg",
         "flipped": false,
         "disable": false
     },
     {
         "id": 5,
-        "front": "front_card.jpg",
-        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
         "flipped": false,
         "disable": false
     },
     {
         "id": 6,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/51298174",
         "flipped": false,
         "disable": false
     },
     {
         "id": 7,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/51422072",
         "flipped": false,
         "disable": false
     },
     {
         "id": 8,
-        "front": "front_card.jpg",
-        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
         "flipped": false,
         "disable": false
     },
     {
         "id": 9,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/34856941",
         "flipped": false,
         "disable": false
     },
     {
         "id": 10,
-        "front": "front_card.jpg",
-        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/934.jpg",
         "flipped": false,
         "disable": false
     },
     {
         "id": 11,
-        "front": "front_card.jpg",
-        "back": "https://avatars.githubusercontent.com/u/33890477",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 12,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 13,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 14,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 15,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 16,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 17,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 18,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 19,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 20,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 21,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 22,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 23,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 24,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 25,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 26,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 27,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 28,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 29,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 30,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 31,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 32,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 33,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 34,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 35,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 36,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 37,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 38,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 39,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 40,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 41,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 42,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 43,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 44,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 45,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 46,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 47,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 48,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 49,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 50,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 51,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 52,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 53,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 54,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 55,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 56,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 57,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 58,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 59,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 60,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 61,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 62,
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 63,
         "flipped": false,
         "disable": false
     }

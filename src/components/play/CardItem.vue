@@ -2,11 +2,12 @@
     <div id="flashcard-app" class="container">
         <h1>Flashcard App!</h1>
         <ul class="flashcard-list">
-          <li @click="toggleCard(card, index)" v-for="(card, index) in cards">
+          <li @click="() => toggleCard(card, index)" v-for="(card, index) in cards" :style="{width: `${(100 / level)}` + '%'}">
             <Transition>
               <p v-bind:key="card.flipped" class="card">
-                    <img :src="card.back" alt="card_back" v-if="card.flipped" />
-                    <img :src="image" alt="card_front" v-else/>
+                
+                    <img :src="`src/assets/images/${card.id}.png`" alt="card_back" v-if="card.flipped" />
+                    <img src='@/assets/images/front_card.jpg' alt="card_front" v-else/>
               </p>
             </Transition>
           </li>
@@ -14,9 +15,7 @@
       </div>
 </template>
 <script>
-import cardsJSON from "../../data/cards.json"
-import front_card from "../../assets/front_card.jpg"
-import { toRaw } from "vue";
+import cardsJSON from "@/data/cards.json"
 export default {
     data() {
         return {
@@ -24,7 +23,8 @@ export default {
             prevIndex: null,
             level: null,
             count: 0,
-            image: front_card
+            result: [],
+            time_start: null 
         }
     },
     methods: {
@@ -48,6 +48,7 @@ export default {
                     card.disable = true;
                     this.prevIndex = null;
                     this.count = 0;
+                    this.result.push(card.id)
                 } else {
                     card.flipped = !card.flipped;
                     setTimeout(() => {
@@ -67,23 +68,35 @@ export default {
         }
     },
     // computed: {
-    //     random_item: function() {
-    //         return this.shuffleArray(this.cards)
+    //     card_obj: function() {
+
     //     }
     // },
     mounted() {
         this.level = this.$route.params.level
-        if (![2,3,4,6].includes(parseInt(this.level))) {
+        this.time_start = performance.now()
+        if (![2, 4,6,8].includes(parseInt(this.level))) {
             alert("Nhập linh tinh cc")
             this.$router.push('/')
         }
         const data = this.shuffleArray(cardsJSON).filter((val, index) => {
-            if (index > this.level - 1) {
+            if (index > this.level * this.level / 2 - 1) {
                 return;
             }
             return val
         })
-        this.cards = JSON.parse(JSON.stringify(data.flatMap((val) => [val, val])))
+        this.cards = JSON.parse(JSON.stringify(this.shuffleArray(data.flatMap((val) => [val, val]))))
+    },
+    watch: {
+        prevIndex(val) {
+            if (this.result.length == this.cards.length / 2){
+                var t1 = performance.now();
+                setTimeout(() => {
+                    alert("To victory took " + ((t1 - this.time_start)/1000).toFixed(2) + " seconds.")
+                    this.$router.push('/')
+                }, 500)
+            }
+        }
     }
 }
 </script>
