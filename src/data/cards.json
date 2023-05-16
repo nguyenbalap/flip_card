@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/97869952",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 1,
+        "front": "front_card.jpg",
+        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/953.jpg",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 2,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/82435101",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 3,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/48624167",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 4,
+        "front": "front_card.jpg",
+        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/64.jpg",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 5,
+        "front": "front_card.jpg",
+        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 6,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/51298174",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 7,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/51422072",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 8,
+        "front": "front_card.jpg",
+        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 9,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/34856941",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 10,
+        "front": "front_card.jpg",
+        "back": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/934.jpg",
+        "flipped": false,
+        "disable": false
+    },
+    {
+        "id": 11,
+        "front": "front_card.jpg",
+        "back": "https://avatars.githubusercontent.com/u/33890477",
+        "flipped": false,
+        "disable": false
+    }
+]

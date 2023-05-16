@@ -1,0 +1,111 @@
+/* @import './base.css'; */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  ul {
+    padding-left: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 10px 10px;
+    transition: all 0.6s ease;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 2em;
+  }
+  
+  .card {
+    display: block;
+    width: 150px;
+    height: 175px;
+    padding: 80px 50px;
+    /* background-color: #51aae5; */
+    border-radius: 7px;
+    margin: 5px;
+    text-align: center;
+    line-height: 27px;
+    cursor: pointer;
+    position: relative;
+    /* color: #fff; */
+    font-weight: 200;
+    /* font-size: 20px; */
+    -webkit-box-shadow: 9px 10px 22px -8px rgba(209,193,209,.5);
+    -moz-box-shadow: 9px 10px 22px -8px rgba(209,193,209,.5);
+    box-shadow: 9px 10px 22px -8px rgba(209,193,209,.5);
+    will-change: transform;
+  }
+  
+  li:hover{
+    transform: scale(1.1);
+  }
+  
+  /* li:nth-child(-n+3) .card{
+    background-color: #e65f51;
+    }
+  
+  li:nth-child(2n+1) .card{
+    background-color: #a17de9;
+    }
+  
+  li:nth-child(4n) .card{
+    background-color: #feca34;
+    }
+  
+  li:nth-child(5n-2) .card{
+    background-color: #51aae5;
+    }
+  
+  li:nth-child(4n+4) .card{
+    background-color: #feca34;
+    }
+  
+  li:nth-child(-7n+7) .card{
+    background-color: #e46055;
+    } */
+  
+  .v-enter-active, .v-leave-active {
+    animation: rotate_transform 1s;
+  }
+
+  .v-enter-from,
+  .v-leave-to {
+    display: none;
+  }
+
+  @keyframes rotate_transform {
+    from {
+      transform: rotateY(180deg);
+    }
+  }
+
+  button{
+    border-radius: 5px;
+    border: 1px solid #87cb84;
+    background-color: #87cb84;
+    padding: 8px 15px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 120px;
+    height: 60px;
+    margin: 20px;
+  }
+  
+  button:hover{
+    background-color: #70a66f;
+  }
+
+  img {
+    width: 100%
+  }
