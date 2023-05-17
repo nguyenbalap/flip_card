@@ -6,7 +6,7 @@
             <Transition>
               <p v-bind:key="card.flipped" class="card">
                 
-                    <img :src="`/images/${card.id}.png`" alt="card_back" v-if="card.flipped" />
+                    <img :src="getImg(card.id)" alt="card_back" v-if="card.flipped" />
                     <img src='/images/front_card.jpg' alt="card_front" v-else/>
               </p>
             </Transition>
@@ -65,6 +65,9 @@ export default {
             return list.map(value => ({ value, sort: Math.random() }))
                     .sort((a, b) => a.sort - b.sort)
                     .map(({ value }) => value)
+        },
+        getImg(file) {
+            return `/images/${file}.png`;
         }
     },
     // computed: {
