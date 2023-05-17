@@ -67,7 +67,7 @@ export default {
                     .map(({ value }) => value)
         },
         getImg(file) {
-            return `/images/${file}.png`;
+            return `/flip_card/images/${file}.png`;
         }
     },
     // computed: {
