@@ -6,8 +6,8 @@
             <Transition>
               <p v-bind:key="card.flipped" class="card">
                 
-                    <img :src="`src/assets/images/${card.id}.png`" alt="card_back" v-if="card.flipped" />
-                    <img src='@/assets/images/front_card.jpg' alt="card_front" v-else/>
+                    <img :src="`/images/${card.id}.png`" alt="card_back" v-if="card.flipped" />
+                    <img src='/images/front_card.jpg' alt="card_front" v-else/>
               </p>
             </Transition>
           </li>
