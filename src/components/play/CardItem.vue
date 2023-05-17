@@ -16,6 +16,7 @@
 </template>
 <script>
 import cardsJSON from "@/data/cards.json"
+import { LEVEL } from "@/config/constants.js"
 export default {
     data() {
         return {
@@ -24,7 +25,7 @@ export default {
             level: null,
             count: 0,
             result: [],
-            time_start: null 
+            time_start: null,
         }
     },
     methods: {
@@ -76,12 +77,13 @@ export default {
     //     }
     // },
     mounted() {
-        this.level = this.$route.params.level
+        this.level = LEVEL[this.$route.params.level]
         this.time_start = performance.now()
-        if (![2, 4,6,8].includes(parseInt(this.level))) {
+        if (![2,4,6,8].includes(parseInt(this.level))) {
             alert("Nhập linh tinh cc")
             this.$router.push('/')
         }
+         
         const data = this.shuffleArray(cardsJSON).filter((val, index) => {
             if (index > this.level * this.level / 2 - 1) {
                 return;
