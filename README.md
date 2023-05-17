@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### link demo
+
+https://nguyenbalap.github.io/flip_card/#/
+
